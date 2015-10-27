@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Notes:
 
 - Able to resize window
@@ -16,6 +15,4 @@ Fixed:
 - Now it wouldn't update the graphicsView if click outside the image
 
 - Changed mainwindows ui
-=======
-# QT_BloodVesselVisualization
->>>>>>> c8cf530dd733aca8458d08b977c30b8450d02cc9
+
