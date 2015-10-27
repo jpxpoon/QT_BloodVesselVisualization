@@ -125,7 +125,7 @@ void Slideshow::timerEvent(QTimerEvent* event)
 //update view screen in widget
 void Slideshow::updateView(Mat imageOut)
 {
-    delete scene;
+    //delete scene;
     if (forAutomatedTips) {
         QImage img((uchar*)imageOut.data, imageOut.cols, imageOut.rows, QImage::Format_Indexed8);
         image = QPixmap::fromImage(img);
